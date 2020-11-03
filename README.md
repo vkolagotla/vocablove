@@ -18,6 +18,12 @@ It's fairly simple to install this extension. After installing **Argos,**  copy 
 + Available positions: `l | c | r`. You can change the position by changing the file name.
 + Available intervals:  number+`s | h | d | y` .You can change the frequency of script execution by changing the file name accordingly. 
 
+### Sample output
+
+You can see a random word in the highlighted box below
+
+![Sample ouut](sample_result.png)
+
 ## To Do
 
 - [ ] Add more languages
