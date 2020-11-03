@@ -30,6 +30,7 @@ You can see a random word in the highlighted box below
 - [ ] Add option to select between languages
 - [ ] Option to refresh word list
 - [ ] Increase/Decrease number of words
+- [ ] Add multiple sources to get the random words (online, local files)
 - [ ] Add check box for learned words and save them to a local text file
 
 ## Thanks to
