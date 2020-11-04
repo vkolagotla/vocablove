@@ -34,7 +34,7 @@ Once the script is executable, you should be able to see the words on the top pa
 - [ ] Reduce the speed of change directly from extension
 - [ ] Add more languages
 - [ ] Add option to select between languages
-- [x] Option to refresh word list
+- [x] ~~Option to refresh word list~~
 - [ ] Increase/Decrease number of words
 - [ ] Add multiple sources to get the random words (online, local files)
 - [ ] Save words to a local text file
