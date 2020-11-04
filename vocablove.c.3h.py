@@ -3,12 +3,14 @@
 import re
 import requests
 
+german_words = "https://www.bestrandoms.com/random-german-words"
 
-def getWordsList():
+
+def getWordsList(word_source: str) -> list:
     """Return list of words from the link."""
 
     # read raw html from the webpage
-    r = requests.get("https://www.bestrandoms.com/random-german-words")
+    r = requests.get(word_source)
     text = r.text
 
     # tag to get words from
@@ -30,17 +32,25 @@ def getWordsList():
     return words_list
 
 
-# get 2 word list
-# 6 new words for each list
-word_list_1 = getWordsList()
-word_list_2 = getWordsList()
-words_12_list = word_list_1 + word_list_2
+def getWordsDict():
+    """Returns a dictionary of words with their translation."""
+    # get 2 word list
+    # 6 new words for each list
+    word_list_1 = getWordsList(german_words)
+    word_list_2 = getWordsList(german_words)
+    words_12_list = word_list_1 + word_list_2
 
-# create dictionary from list
-word_itr = iter(words_12_list)
-word_dict = dict(zip(word_itr, word_itr))
+    # create dictionary from list
+    word_itr = iter(words_12_list)
+    word_dict = dict(zip(word_itr, word_itr))
+    return word_dict
 
-# print the words
-for key, value in word_dict.items():
+
+# print the words to consol
+for key, value in getWordsDict().items():
     if key != value:
         print(key + ": " + value)
+
+print("---")
+# option to refresh the word list
+print("Refresh Words | refresh=true")
