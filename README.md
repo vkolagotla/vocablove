@@ -53,5 +53,5 @@ I have observed that the script gets struck and words appear after some time, us
 * Contributers of [Argos](https://github.com/rammie/argos/tree/gnome-3.36)
 * Makers of [Random-German_words](https://www.bestrandoms.com/random-german-words)
 
-[Go UP⬆️](#toc)
+[Go UP⬆️](#vocablove)
 
