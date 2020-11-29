@@ -7,11 +7,18 @@ german_words = "https://www.bestrandoms.com/random-german-words"
 
 
 def getWordsList(word_source: str) -> list:
-    """Return list of words from the link."""
+    """Returns a list of words from the link."""
 
     # read raw html from the webpage
-    r = requests.get(word_source)
-    text = r.text
+    try:
+        r = requests.get(word_source, timeout=7.0)
+        text = r.text
+    except requests.Timeout as e:
+        print("Timeout Error")
+        print(str(e))
+    except requests.ConnectionError as e:
+        print("Connection Error. Make sure you are connected to Internet.")
+        print(str(e))
 
     # tag to get words from
     tag = "span"
