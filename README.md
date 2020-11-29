@@ -1,10 +1,10 @@
 # vocablove
 
-GNOME Shell extension to learn and practice vocabulary. Gets [Random German Words](https://www.bestrandoms.com/random-german-words) and displays the words with meaning repeatedly until the script gets executed again to get new set of words. 
+GNOME Shell extension to learn and practice vocabulary. Gets [Random German Words](https://www.bestrandoms.com/random-german-words) and displays the words with meaning repeatedly until the script gets executed again to get new set of words.
 
 Since the website generates 6 words at a time, the script displays a maximum of 12 words in a loop, one at a time, until the script gets executed again, based on your choice. Default is 3 hours. You can refresh the words list manually if you know/learned them all or for whatever reason.
 
-## How to Install?
+## How to Install and Use?
 
 **Dependencies:**
 
@@ -28,6 +28,14 @@ Once the script is executable, you should be able to see the words on the top pa
 ### Sample output
 
 ![Sample ouut](sample_result.png)
+
+## Troubleshooting
+
+If you just see `vocablove.c.3h.py...`  instead of some words in the top panel, restarting the GNOME shell by `Alt+F2` and then type `r` usually solves the problem. If the problem persists, you probably have to do your own diagnostics. 
+
+**hint:** Check if you have installed a working copy of Argos or not.
+
+I have observed that the script gets struck and words appear after some time, usually after couple of minutes. I don't know why the GET request takes this time to fetch the web-page results yet.
 
 ## To Do
 
