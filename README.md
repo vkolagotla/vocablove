@@ -53,5 +53,9 @@ I have observed that the script gets struck and words appear after some time, us
 * Contributers of [Argos](https://github.com/rammie/argos/tree/gnome-3.36)
 * Makers of [Random-German_words](https://www.bestrandoms.com/random-german-words)
 
+## About LICENSE
+
+I created this extension for personal use. The extension [LICENSE](LICENSE) is only valid for the code. Since the words are fetched from an external source(in case of online sources), i do not own that data. I would suggest you to not use the extension for any commercial purpose, unless you have the permission to do so from those respective data sources.
+
 [Go UP⬆️](#vocablove)
 
