@@ -2,13 +2,24 @@
 
 import re
 import requests
+from typing import List, Dict
 
 german_words = "https://www.bestrandoms.com/random-german-words"
 
 
-def getWordsList(word_source: str) -> list:
-    """Returns a list of words from the link."""
+def getWordsList(word_source: str) -> List(str):
+    """Returns a list of words from the link.
 
+    Parameters
+    ----------
+    word_source: str
+        Website link to get the words
+
+    Returns
+    -------
+    List
+        Returns a list of words as strings
+    """
     # read raw html from the webpage
     try:
         r = requests.get(word_source, timeout=7.0)
@@ -39,10 +50,15 @@ def getWordsList(word_source: str) -> list:
     return words_list
 
 
-def getWordsDict():
-    """Returns a dictionary of words with their translation."""
-    # get 2 word list
-    # 6 new words for each list
+def getWordsDict() -> Dict[str, str]:
+    """Returns a dictionary of words with their translation.
+
+    Returns
+    -------
+    Dict
+        Returns a dictionary of words as strings
+    """
+    # get 2 word lists, max 6 new words for a list
     word_list_1 = getWordsList(german_words)
     word_list_2 = getWordsList(german_words)
     words_12_list = word_list_1 + word_list_2
