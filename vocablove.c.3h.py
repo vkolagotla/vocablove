@@ -73,7 +73,18 @@ def getWordsDict() -> Dict[str, str]:
 
 
 def get_words_local(word_file: str) -> Dict[str, str]:
-    """Get words from a local word file."""
+    """Get words from a local word file.
+
+    Parameters
+    ----------
+    word_file: str
+        Path to the word file
+
+    Returns
+    -------
+    Dict
+        Returns a dictionary of words as string
+    """
     with open(word_file, mode="r") as file:
         # reading the CSV file
         csv_file = csv.reader(file)
@@ -86,6 +97,7 @@ def get_words_local(word_file: str) -> Dict[str, str]:
 
 
 def main():
+    """Gets the file and prints the words to GNOME shell."""
     # get the python file path to use for words_list dir
     head, _ = os.path.split(os.path.abspath(__file__))
 
