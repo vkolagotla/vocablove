@@ -63,7 +63,7 @@ Word(Plural): Meaning
 ## Thanks to
 
 * Contributers of [Argos](https://github.com/rammie/argos/tree/gnome-3.36)
-* [telc gGmbH](https://www.telc.net/) for the vocab files for each language level
+* [telc GmbH](https://www.telc.net/) for the vocab files for each language level
 
 ## About LICENSE
 
