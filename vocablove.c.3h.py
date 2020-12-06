@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 
 import re
+import os
+import csv
+import random
 import requests
 from typing import List, Dict
 
 german_words = "https://www.bestrandoms.com/random-german-words"
 
 
-def getWordsList(word_source: str) -> List(str):
+def getWordsList(word_source: str) -> List[str]:
     """Returns a list of words from the link.
 
     Parameters
@@ -69,11 +72,46 @@ def getWordsDict() -> Dict[str, str]:
     return word_dict
 
 
-# print the words to consol
-for key, value in getWordsDict().items():
-    if key != value:
-        print(key + ": " + value)
+def get_words_local(word_file: str) -> Dict[str, str]:
+    """Get words from a local word file."""
+    with open(word_file, mode="r") as file:
+        # reading the CSV file
+        csv_file = csv.reader(file)
+        local_words_dict = {}
+        # displaying the contents of the CSV file
+        for lines in csv_file:
+            local_words_dict[lines[0]] = lines[1]
 
-print("---")
-# option to refresh the word list
-print("Refresh Words | refresh=true")
+    return local_words_dict
+
+
+def main():
+    # get the python file path to use for words_list dir
+    head, _ = os.path.split(os.path.abspath(__file__))
+
+    # list of lang levels and respective word files
+    word_file_list = ["word_sources/telc_a1_1.csv", "word_sources/telc_a1_2.csv"]
+
+    # get a random language level (A1 to C1)
+    rand_lang_level = head + "/" + str(random.sample(word_file_list, 1)).strip("'[]'")
+
+    # get 10 random words
+    ten_randon_words = random.sample(get_words_local(rand_lang_level).items(), 10)
+    # print the words to consol
+    for key, value in ten_randon_words:
+        if key != value:
+            print(key.capitalize() + ": " + value.capitalize())
+    print("---")
+    # option to refresh the word list
+    print("Refresh Words | refresh=true")
+    # print respective lang level
+    if "a1_1" in rand_lang_level:
+        print("Level A1.1")
+        print("---")
+    else:
+        print("Level A1.2")
+        print("---")
+
+
+if __name__ == "__main__":
+    main()
