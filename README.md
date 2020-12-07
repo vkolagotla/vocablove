@@ -4,6 +4,13 @@ GNOME Shell extension to learn and practice vocabulary. Gets the words from a lo
 
 Since **Argos** does not allow to select particular method from the script to execute from the shell, so you will see random words(default 10) at a time from a language level(A1.1, A1.2, ... C1)
 
+### Number of words
+
+* A1.1 (586)
+* A1.2 (533)
+* A2.1 (479)
+* A2.2 (563)
+
 The script gets executed automatically every 3 hours. You can refresh the words list manually if you know/learned them all or for whatever reason. Every time you refresh the word list, the language level also gets refreshed. That mean you can learn words from different levels in parallel.
 
 ## How to Install and Use?
@@ -49,11 +56,11 @@ Word(Plural): Meaning
 
 ## To Do
 
-- [ ] Deprecate the methods related to online words to use only local words
 - [ ] Add option to select between language levels
 - [ ] Reduce the speed of change directly from extension
 - [ ] Add more languages
 - [ ] Add option to select between languages
+- [x] Deprecate the methods related to online words to use only local words
 - [x] Option to refresh word list
 - [x] Add multiple sources to get the random words (online, local files)
 - [ ] ~~Add check box for learned words and save them to a local text file~~
