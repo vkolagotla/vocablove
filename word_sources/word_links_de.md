@@ -20,11 +20,11 @@ Following are some of the sources that can be used to create a text file of word
 2. Telc [B1.2. vocabulary list](https://www.telc.net/fileadmin/user_upload/Handbooks/wortschatzliste_einfach-gut_b1-2_englisch.pdf) with translations
 3. Vocabulary list for the [Goethe B1](https://www.goethe.de/pro/relaunch/prf/en/Goethe-Zertifikat_B1_Wortliste.pdf) exam
 4. Aspekt Neu [vocabulary list for B1](https://www.klett-sprachen.de/downloads/14391/Glossar_5FEnglisch/pdf)
-5. Telc [B1-B2 vocabulary list](https://www.telc.net/fileadmin/user_upload/Handbooks/wortschatzliste_einfach-besser_b1-b2_englisch.pdf) with translations
 
 ## B2
 
-1. Aspekt Neu [vocabulary list for B2](https://www.klett-sprachen.de/downloads/7059/Kapitelwortschatz/pdf)
+1. Telc [B1-B2 vocabulary list](https://www.telc.net/fileadmin/user_upload/Handbooks/wortschatzliste_einfach-besser_b1-b2_englisch.pdf) with translations
+2. Aspekt Neu [vocabulary list for B2](https://www.klett-sprachen.de/downloads/7059/Kapitelwortschatz/pdf)
 
 ## C1
 

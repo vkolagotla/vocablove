@@ -1,3 +1,4 @@
 scripts/
 __pycache__/
 word_sources/*pdf
+static/*xcf
