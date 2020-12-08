@@ -40,7 +40,7 @@ Once the script is executable, you should be able to see the words on the top pa
 
 ### Extension Screenshot
 
-![Sample ouut](sample_result.png)
+![Sample ouut](static/screenshot.png)
 
 ## Troubleshooting
 
