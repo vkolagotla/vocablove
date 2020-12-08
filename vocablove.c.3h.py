@@ -1,79 +1,82 @@
 #!/usr/bin/env python3
 
-import re
-import requests
-from typing import List, Dict
+import os
+import csv
+import random
+from typing import Dict
 
-german_words = "https://www.bestrandoms.com/random-german-words"
 
-
-def getWordsList(word_source: str) -> List(str):
-    """Returns a list of words from the link.
+def get_words_local(word_file: str) -> Dict[str, str]:
+    """Get words from a local word file.
 
     Parameters
     ----------
-    word_source: str
-        Website link to get the words
-
-    Returns
-    -------
-    List
-        Returns a list of words as strings
-    """
-    # read raw html from the webpage
-    try:
-        r = requests.get(word_source, timeout=7.0)
-        text = r.text
-    except requests.Timeout as e:
-        print("Timeout Error")
-        print(str(e))
-    except requests.ConnectionError as e:
-        print("Connection Error. Make sure you are connected to Internet.")
-        print(str(e))
-
-    # tag to get words from
-    tag = "span"
-
-    # filter the text based on class
-    i = text.find('</div><div class="clearfix">')
-    text = text[i:]
-    i_2 = text.find('<div class="clearfix"></div></ul>')
-    text = text[:i_2]
-
-    # regex to extract required strings
-    reg_str = "<" + tag + ">(.*?)</" + tag + ">"
-    words_list = re.findall(reg_str, text)
-
-    # capitalize the first word
-    words_list = list(map(lambda s: s.capitalize(), words_list))
-
-    return words_list
-
-
-def getWordsDict() -> Dict[str, str]:
-    """Returns a dictionary of words with their translation.
+    word_file: str
+        Path to the word file
 
     Returns
     -------
     Dict
-        Returns a dictionary of words as strings
+        Returns a dictionary of words as string
     """
-    # get 2 word lists, max 6 new words for a list
-    word_list_1 = getWordsList(german_words)
-    word_list_2 = getWordsList(german_words)
-    words_12_list = word_list_1 + word_list_2
+    with open(word_file, mode="r") as file:
+        # reading the CSV file
+        csv_file = csv.reader(file)
+        local_words_dict = {}
+        # displaying the contents of the CSV file
+        for lines in csv_file:
+            local_words_dict[lines[0]] = lines[1]
 
-    # create dictionary from list
-    word_itr = iter(words_12_list)
-    word_dict = dict(zip(word_itr, word_itr))
-    return word_dict
+    return local_words_dict
 
 
-# print the words to consol
-for key, value in getWordsDict().items():
-    if key != value:
-        print(key + ": " + value)
+def main():
+    """Gets the file and prints the words to GNOME shell."""
+    # get the python file path to use for words_list dir
+    head, _ = os.path.split(os.path.abspath(__file__))
 
-print("---")
-# option to refresh the word list
-print("Refresh Words | refresh=true")
+    # list of lang levels and respective word files
+    word_file_list = [
+        "word_sources/telc_a1_1.csv",
+        "word_sources/telc_a1_2.csv",
+        "word_sources/telc_a2_1.csv",
+        "word_sources/telc_a2_2.csv",
+        "word_sources/telc_b1_1.csv",
+        "word_sources/telc_b1_2.csv",
+        "word_sources/telc_b2_1.csv",
+        "word_sources/telc_b2_2.csv",
+    ]
+
+    # get a random language level (A1 to C1)
+    rand_lang_level = head + "/" + str(random.sample(word_file_list, 1)).strip("'[]'")
+
+    # get 10 random words
+    ten_randon_words = random.sample(get_words_local(rand_lang_level).items(), 10)
+    # print the words to consol
+    for key, value in ten_randon_words:
+        if key != value:
+            print(key.capitalize() + ": " + value.capitalize())
+    print("---")
+    # option to refresh the word list
+    print("Refresh Words | refresh=true")
+    # print respective lang level
+    lang_level_dict = {
+        "a1_1": "Level A1.1",
+        "a1_2": "Level A1.2",
+        "a2_1": "Level A2.1",
+        "a2_2": "Level A2.2",
+        "b1_1": "Level B1.1",
+        "b1_2": "Level B1.2",
+        "b2_1": "Level B2.1",
+        "b2_2": "Level B2.2",
+    }
+    for key in lang_level_dict.keys():
+        if key in rand_lang_level:
+            print(lang_level_dict[key])
+            print("---")
+        else:
+            pass
+
+
+if __name__ == "__main__":
+    main()
