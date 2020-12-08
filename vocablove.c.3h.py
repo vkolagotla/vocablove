@@ -41,6 +41,10 @@ def main():
         "word_sources/telc_a1_2.csv",
         "word_sources/telc_a2_1.csv",
         "word_sources/telc_a2_2.csv",
+        "word_sources/telc_b1_1.csv",
+        "word_sources/telc_b1_2.csv",
+        "word_sources/telc_b2_1.csv",
+        "word_sources/telc_b2_2.csv",
     ]
 
     # get a random language level (A1 to C1)
@@ -63,8 +67,8 @@ def main():
         "a2_2": "Level A2.2",
         "b1_1": "Level B1.1",
         "b1_2": "Level B1.2",
-        "b2": "Level B2",
-        "c1": "Level C1",
+        "b2_1": "Level B2.1",
+        "b2_2": "Level B2.2",
     }
     for key in lang_level_dict.keys():
         if key in rand_lang_level:
