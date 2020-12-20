@@ -1,4 +1,4 @@
-Der Abfall(Abfälle),rubbish
+Der Abfall/Abfälle,rubbish
 Der Abflug,departure
 Die Absage,cancellation
 aktiv,active
@@ -24,9 +24,9 @@ einchecken,to check-in
 Die Einsteigezeit,boarding time
 Das Einzelzimmer,single room
 erleben,to experience
-Der Flug(Flüge),flight
+Der Flug/Flüge,flight
 der/die Flugbegleiter/in,flight attendant
-Der Fluggast(Fluggäste),passenger
+Der Fluggast/Fluggäste,passenger
 Fluggesellschaft,airline
 Die führen,to lead
 füttern,to feed
@@ -75,7 +75,7 @@ Die Schlange,snake
 Der Sonnenschirm,parasol
 Die Sonnenterrasse,sun terrace
 Der Sonnenuntergang,sunset
-Der Stern(Sterne),star
+Der Stern/Sterne,star
 stören,to disturb
 Das Streichholz,match
 streiken,to strike
@@ -84,7 +84,7 @@ Das Taschenmesser,pocket knife
 traumhaft,wonderful
 übernachten,to stay overnight
 Die Übernachtung,overnight stay
-Die Übernachtung mit Frühstück (ÜF),overnight stay with breakfast
+Die Übernachtung mit Frühstück /ÜF,overnight stay with breakfast
 Die Umgebung,surroundings
 umgehend,immediately
 verärgert,annoyed
@@ -96,7 +96,7 @@ Der Waschraum,laundry room
 Der Wohnwagen,caravan
 Das Zelt,tent
 Der Zoll,customs
-Der Zuschlag(Zuschläge),fees
+Der Zuschlag/Zuschläge,fees
 absprechen,to arrange
 Der Abstellplatz,parking space
 akzeptieren,to accept
@@ -187,7 +187,7 @@ vorher,before
 wegräumen,to clear away
 Der Widerspruch,contradiction
 wütend,angry
-Der Zeitraum(Zeiträume),time frame
+Der Zeitraum/Zeiträume,time frame
 ziemlich,rather
 Die Zimmerlautstärke,room volume
 zugeben,to admit
@@ -195,7 +195,7 @@ zurücklassen,to leave behind
 Das Zusammenleben,life together
 zustimmen,to agree
 Der Zutritt,access
-Das Abgas(Abgase),exhaust gas
+Das Abgas/Abgase,exhaust gas
 Das Abwasser,sewage
 Das Altö,waste oil
 Das Altpapier,waste paper
@@ -246,14 +246,14 @@ Die Obstschale,fruit skin
 Der Papiermüll,paper waste
 Die Pappe,cardboard
 Das Picknick,picnic
-Der Planet(Planeten),planet
+Der Planet/Planeten,planet
 Das Plastik,plastic
 recyceln,to recycle
-Der Sack(Säcke),bag
+Der Sack/Säcke,bag
 Die Sammelstelle,collection point
 schädigen,to damage
 schädlich,harmful
-Der Schadstoff(Schadstoffe),hazardous substance
+Der Schadstoff/Schadstoffe,hazardous substance
 schützen,to protect
 Die Solarenergie,solar energy
 Der Sondermüll,hazardous waste
@@ -272,7 +272,7 @@ umgehen,to go round
 umweltfreundlich,environmentally friendly
 Der Umweltschutz,environmental protection
 Die Umweltverschmutzung,environmental pollution
-Das Unwetter(Unwetter),thunderstorm
+Das Unwetter/Unwetter,thunderstorm
 verändern,to change
 verlaufen,to continue
 verschmutzen,to contaminate
@@ -283,13 +283,13 @@ verwerten,to exploit
 voraussichtlich,provisionally
 vorhersagen,to predict
 wahrscheinlich,probably
-wegschmeißen (ugs.),to chuck out
+wegschmeißen /ugs.,to chuck out
 wegwerfen,to throw away
-Der Wertstoff(Wertstoffe),recyclable material
+Der Wertstoff/Wertstoffe,recyclable material
 Der Wind,wind
-Die Windel(Windeln),nappy
-Der Wirbelsturm(Wirbelstürme),hurricane
-Die Wolke(Wolken),cloud
+Die Windel/Windeln,nappy
+Der Wirbelsturm/Wirbelstürme,hurricane
+Die Wolke/Wolken,cloud
 zerstören,to destroy
 Die Zerstörung,destruction
 Die Zigarettenkippe,cigarette butts
@@ -297,7 +297,7 @@ zurückfahren,to go back
 anfassen,to touch
 Die Anprobe,fitting room
 anprobieren,to try on
-Die Art(Arten),type
+Die Art/Arten,type
 Die Artikelnummer,item number
 Die Atmung,breathing
 atmungsaktiv,breathable
@@ -310,7 +310,7 @@ Der Bankeinzug,direct debit
 bereits,already
 beschädigt,damaged
 Die Bestellhotline,order hotline
-Der Betrag(Beträge),sum
+Der Betrag/Beträge,sum
 Der Bezahlvorgang,payment process
 Das Callcenter,call centre
 Der Datenschutz,data protection
@@ -341,7 +341,7 @@ lieferbar,in stock
 Die Lieferbedingung,delivery conditions
 Die Lieferung,delivery
 luftdurchlässig,breathable
-Die Mehrkosten (Pl.),extra costs
+Die Mehrkosten /Pl.,extra costs
 Die Nachnahme,cash on delivery
 Der Nachteil,disadvantage
 Der Onlineeinkauf,online shopping
@@ -352,11 +352,11 @@ Der Paketbote,parcel carrier
 Der Paketdienst,parcel service
 Das Porto,postage
 portofrei,postage paid
-Die Portokosten (Pl.),postage
+Die Portokosten /Pl.,postage
 produzieren,to produce
 Die Qualität,quality
 Die Reklamation,complaint
-Die Retoure(Retouren),return order
+Die Retoure/Retouren,return order
 Der Retourenschein,return order slip
 Die Rücksendung,return delivery
 Das Shopping,shopping
@@ -364,14 +364,14 @@ unverbindlich,non-binding
 der/die Verbraucher/in,consumer
 verpacken,to package
 Der Versand,shipping
-Die Versandkosten (Pl.),shipping fee
+Die Versandkosten /Pl.,shipping fee
 versandkostenfrei,free of shipping costs
 Die Versandkostenpauschale,flat shipping rate
 versenden,to send
-Die Ware(Waren),goods
+Die Ware/Waren,goods
 Der Warenkorb,basket
 wasserdicht,waterproof
-Der Werktag(Werktage),working day
+Der Werktag/Werktage,working day
 wetterfest,waterproof
 widerrufen,disclaimer
 Das Widerrufsrecht,right of revocation
@@ -390,12 +390,12 @@ begeistern,to inspire
 beliebt,popular
 Der Biergarten,beer garden
 Das Boxen,boxing
-Die Chips (Pl.),crisps
+Die Chips /Pl.,crisps
 demnächst,soon
 Die Detektivgeschichte,detective story
 Das Diagramm,diagram
 Die Diskussion,discussion
-Die Dokumentationen (Dokus),documentary
+Die Dokumentationen /Dokus,documentary
 doppelt,doubled
 dramatisch,dramatic
 Der Durchschnitt,average
@@ -472,7 +472,7 @@ unentschieden,undecided
 ungesund,unhealthy
 Die Unterhaltung,entertainment
 der/die Verlierer/in,loser
-Die Weltmeisterschaft (WM),World cup
+Die Weltmeisterschaft /WM,World cup
 weshalb,which is why
 zappen,to channel surf
 Der Zeichentrickfilm,animated film
@@ -493,13 +493,13 @@ Die Auswanderung,emigration
 Die Besatzungszone,occupied zone
 besiegen,to conquer
 der/die Bundeskanzler/in,federal chancellor
-Die Bundesrepublik (BRD),federal republic (FRG)
+Die Bundesrepublik /BRD,federal republic (FRG)
 der/die Bürger/in,citizen
 Der Bürgerkrieg,civil war
 Die Demokratie,democracy
 demokratisch,democratic
 Die Demonstration,demonstration
-Die Deutsche Demokratische Republik (DDR),German democratic republic (GDR)
+Die Deutsche Demokratische Republik /DDR,German democratic republic (GDR)
 ehemalig,former
 einführen,to introduce
 einsperren,to confine
@@ -509,7 +509,7 @@ entwickeln,to develop
 erinnern,to remember
 Die Erinnerung,memory
 ernähren,to feed
-Die Europäische Union (EU),European union
+Die Europäische Union /EU,European union
 Die Euroeinführung,introduction of the Euro
 Der Flüchtling,refugee
 fördern,to promote
@@ -562,7 +562,7 @@ Der Staat,state
 Die Staatsgründung,formation of a state
 Das Stipendium,scholarship
 tatsächlich,actual
-Die Teilung(Teilungen),division
+Die Teilung/Teilungen,division
 verdrängen,to suppress
 vereinigen,to unite
 verfolgen,to follow
@@ -570,7 +570,7 @@ verhaften,to arrest
 verlängern,to extend
 verlassen,to leave
 vermischen,to mix
-Das Visum(Visa),visa
+Das Visum/Visa,visa
 Das Weltall,space
 wiedervereinigen,to re-unify
 Die Wiedervereinigung,reunification

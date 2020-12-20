@@ -1,7 +1,7 @@
-Das Altgerät(Altgeräte),old device
-Die Anfrage(Anfragen),request
+Das Altgerät/Altgeräte,old device
+Die Anfrage/Anfragen,request
 Das Angebotsschreiben,offer letter
-Der Anhang(Anhänge),attachment
+Der Anhang/Anhänge,attachment
 anlässlich,on the occasion of
 Die Ansicht,view
 Die Anzahl,quantity
@@ -18,7 +18,7 @@ bankrott,bankrupt
 binnen,within
 Das Budget,budget
 Das Cerankochfeld,ceramic hob
-"cif (= cost, insurance, freight)","cif (= cost, insurance, freight)"
+"cif /= cost, insurance, freight","cif (= cost, insurance, freight)"
 Die Dunstabzugshaube,extractor hood
 Der Edelstahl,stainless steel
 Die Edelstahleinbauspüle,stainless steel in-built sink
@@ -34,7 +34,7 @@ Der Fachtext,specialist text
 der/die Fahrradhändler/in,bicycle dealer
 Die Fahrzeugbrief,vehicle registration document
 Das Firmengelände,company property
-fob (= free on board),fob (= free on board)
+fob /= free on board,fob (= free on board)
 Die Front,front
 frühestens,at the earliest
 gängig,common
@@ -58,11 +58,11 @@ Kundenbewertung,customer rating
 Landesgrenze,country border
 Laufschuh,running shoe
 lauten,to sound
-Lieferkosten (Pl.),delivery costs (pl.)
+Lieferkosten /Pl.,delivery costs (pl.)
 Marmoroptik,marble-look
 Mehrwertsteuer,value added tax
 mitteilen,to communicate
-MwSt (= Mehrwertsteuer),VAT (= value added tax)
+MwSt /= Mehrwertsteuer,VAT (= value added tax)
 netto,net
 Nettopreis,net price
 niedrig,low
@@ -71,7 +71,7 @@ perlmuttfarben,pearly
 Personalversammlung,personal collection
 Plattform,platform
 Preisreduzierung,price reduction
-Produktionskosten (Pl.),production costs (pl.)
+Produktionskosten /Pl.,production costs (pl.)
 Rabatt,discount
 Ratenzahlung,payment in instalments
 Rest,remainder
@@ -134,7 +134,7 @@ Das Design,design
 Das Drittel,third
 dunkelblau,dark blue
 dunkelgrau,dark green
-eh (ugs.),huh (coll.)
+eh /ugs.,huh (coll.)
 einholen,to gather
 eintragen,to enter
 Der Einzelpreis,unit price
@@ -182,7 +182,7 @@ Der Servicebereich,service area
 Das Sicherheitsbedenken,security concerns
 sonnengelb,sunshine yellow
 Das Sparbuch,savings book
-Die Stückzahl(Stückzahlen),item no.
+Die Stückzahl/Stückzahlen,item no.
 der Taschenrechner,pocket calculator
 übrig,remaining/leftover
 unmodern,out of fashion
@@ -203,7 +203,7 @@ zuvor,before
 zweiteilig,in two parts
 absehen,to foresee
 Die Administration,administration
-Die Akte(Akten),file/record
+Die Akte/Akten,file/record
 akzeptabel,acceptable
 Der Anbieter/in,provider
 Die Anforderung,requirement
@@ -226,7 +226,7 @@ Die Chance,chance
 Der Clou,trick/key feature
 darlegen,to present
 definieren,to define
-DIN (= Deutsches Institut für Normung),standards committee
+DIN /= Deutsches Institut für Normung,standards committee
 durchhalten,to persevere
 durchlaufen,to go through
 Die Einhaltung,compliance
@@ -245,7 +245,7 @@ Der Gott,god
 gratis,free
 Die Güte,goodness
 gutmachen,to make it up (to sb)
-HD (= High Definition),HD
+HD /= High Definition,HD
 Die Höflichkeit,politeness
 die Innovation,innovation
 Das Institut,institute
@@ -261,7 +261,7 @@ konstruktiv,constructive
 kontinuierlich,continually
 Das Konzentrat,concentrate
 Die Kritik,critic
-Die LED (= Leuchtdiode),LED
+Die LED /= Leuchtdiode,LED
 leidig,tiresome
 Die Lieferschwierigkeit,delivery difficulty
 Das Management,management
@@ -304,7 +304,7 @@ Streitgespräch,debate
 tolerant,tolerant
 trotz,despite
 Tunnel,tunnel
-TV (= Television),TV (= television)
+TV /= Television,TV (= television)
 überarbeiten,to re-work
 überprüfen,to check
 Unannehmlichkeit,inconvenience
@@ -312,7 +312,7 @@ ungerecht,unfair
 untereinander,among each other
 unterziehen,to undergo
 unverzüglich,immediate
-VDA (= Verband der Automobilindustrie),VDA 
+VDA /= Verband der Automobilindustrie,VDA 
 verallgemeinern,to generalise
 veraltet,outdated
 Verbesserung,improvement
@@ -326,9 +326,9 @@ Vorstandssitzung,board meeting
 Vorwurf,accusation
 weiterempfehlen,to recommend
 werben,to advertise
-Die Werbung(Werbungen),advertisement
-Der Witz(Witze),joke
-Die Wurstplatte(Wurstplatten),cold meat platter
+Die Werbung/Werbungen,advertisement
+Der Witz/Witze,joke
+Die Wurstplatte/Wurstplatten,cold meat platter
 zertifiziert,certified
 Die Zertifizierung,certification
 Das Zubehör,supplies
@@ -337,7 +337,7 @@ zwingen,to force
 abfeiern,to celebrate
 abstimmen,to vote
 abwesend,absent
-die Agenda(Agenden),agenda
+die Agenda/Agenden,agenda
 Die Altersgruppe,age group
 Die Altersklasse,age bracket
 Die Ankündigung,announcement
@@ -348,7 +348,7 @@ Der Auslandsvertrieb,distribution abroad
 Der Beamer,projector
 Die Beförderung,promotion
 Die Besprechungspunkt,point of discussion
-Die Besprechungsunterlagen (Pl.),meeting documents (pl.)
+Die Besprechungsunterlagen /Pl.,meeting documents (pl.)
 bestimmen,to determine
 bewältigen,to overcome
 Die Bewirtung,hospitality
@@ -357,7 +357,7 @@ der/die Bürgermeister/in,mayor
 Das Controlling,controlling
 Das Detail,detail
 Die Diskussion,discussion
-Die DOB (= Damenoberbekleidung),women's outer garments
+Die DOB /= Damenoberbekleidung,women's outer garments
 effektiv,effective
 einplanen,to plan/allow for
 Die Einteilung,classification
@@ -526,7 +526,7 @@ erscheinen,to appear
 der/die Ersthelfer/in,first aider
 Die Evakuierung,evacuation
 Das Feld,field
-Die Ferien (Pl.),holidays (pl.)
+Die Ferien /Pl.,holidays (pl.)
 Die Feuerlöscheinrichtung,fire extinguishing unit
 Die Feuerwehr,fire brigade
 Flatrate,flat rate
@@ -611,20 +611,20 @@ Die Sicherheitsbestimmung,safety regulation
 Die Sicherheitsvorschrift,safety rule
 Die SIM-Karte,sim card
 Die Spätschicht,late shift
-Die Speicherkarte(Speicherkarten),memory card
+Die Speicherkarte/Speicherkarten,memory card
 spitz,sharp
-Der Splitter(Splitter),splinter
-Der Standort(Standorte),location
-Die Stolperfalle(Stolperfallen),trip hazard
-Die Stolpergefahr(Stolpergefahren),trip hazard
+Der Splitter/Splitter,splinter
+Der Standort/Standorte,location
+Die Stolperfalle/Stolperfallen,trip hazard
+Die Stolpergefahr/Stolpergefahren,trip hazard
 Der Straßenbau,road works
-die Sturzgefahr(Sturzgefahren),risk of falling
-Das Suchfeld(Suchfelder),search box
-das Suchsymbol(Suchsymbole),search symbol
-Das Tablet(Tablets),tablet
-Das Telefonat(Telefonate),telephone call
+die Sturzgefahr/Sturzgefahren,risk of falling
+Das Suchfeld/Suchfelder,search box
+das Suchsymbol/Suchsymbole,search symbol
+Das Tablet/Tablets,tablet
+Das Telefonat/Telefonate,telephone call
 Der Touchscreen,touchscreen
-Der Übergang(Übergänge),transition
+Der Übergang/Übergänge,transition
 die Überstundenregelung,overtime regulation
 der Übertragungszeitraum,transfer period
 unterteilen,to partition
@@ -638,14 +638,14 @@ vergüten,to compensate
 der/die Verletzte,injured person
 Die Verletzung,injury
 verwalten,to manage
-Der Vorgang(Vorgänge),procedure
+Der Vorgang/Vorgänge,procedure
 wöchentlich,weekly
-Die Wunde(Wunden),wound
+Die Wunde/Wunden,wound
 Die Zieladresse,target address
-Der Zollstock(Zollstöcke),folding ruler
+Der Zollstock/Zollstöcke,folding ruler
 zoomen,to zoom
 zumal,particularly as
-Die Abgabe(Abgaben),submission
+Die Abgabe/Abgaben,submission
 ablaufen,to expire
 Die Abmahnung,written warning
 Die Abrechnung,statement
@@ -670,7 +670,7 @@ auslagern,to outsource
 Die Ausnahmegenehmigung,special approval
 Die Auszahlung,payment
 automatisch,automatic
-Die AV (= Arbeitslosenversicherung),unemployment insurance
+Die AV /= Arbeitslosenversicherung,unemployment insurance
 bedürfen,to require
 beeinträchtigend,detrimental
 befördern,to promote
@@ -739,11 +739,11 @@ Die Konfession,confession
 Die Konstruktion,construction
 Der Konzern,group (business)
 der/die Krankenpflegehelfer/in,nursing assistant
-die KV (= Krankenversicherung),HI (= health insurance)
+die KV /= Krankenversicherung,HI (= health insurance)
 Das Lernangebot,learning opportunity
 Die Lohnart,salary type
 Die Lohnsteuer,income tax
-losschießen (ugs.),to go ahead (coll.)
+losschießen /ugs.,to go ahead (coll.)
 Der Minijob,mini job
 nachfolgend,subsequent
 der/die Nachfolger/in,successor
@@ -760,29 +760,29 @@ Die Pflegeversicherung,nursing insurance
 Die Probefrist,trial period
 der/die Protestant/in,protestant
 Der Puls,pulse
-Die PV (= Pflegeversicherung),nursing insurance
+Die PV /= Pflegeversicherung,nursing insurance
 realistisch,realistic
 Die Reinigung,cleaning
 rentenversichert,covered by pension insurance
-Die RV (= Rentenversicherung),pension insurance
+Die RV /= Rentenversicherung,pension insurance
 Die Schriftform,written form
 Der Schutz,protection
 der/die Schwerbehinderte,severely disabled person
 sichergehen,to play safe
-Der SolZ (= Solidaritätszuschlag),solidarity surcharge
+Der SolZ /= Solidaritätszuschlag,solidarity surcharge
 Die Sozialabgabe,social security contributions
 Die Sperrzeit,blocking time
 die Steuerklasse,tax bracket
 steuerlich,fiscal
 Das Stillschweigen,silence
-Das Streikverbot(Streikverbote),strike ban
+Das Streikverbot/Streikverbote,strike ban
 Die Studiengemeinschaft,study/research association
-Die SV (= Sozialversicherung),social insurance
+Die SV /= Sozialversicherung,social insurance
 tätig,active/employed
 Die Teilzeitanstellung,part-time position
 unrealistisch,unrealistic
 unwirksam,ineffective
-die UV(=Unfallversicherung),accident insurance
+die UV/=Unfallversicherung,accident insurance
 verbieten,to forbid
 verlangen,to extend
 Die Verringerung,reduction
@@ -790,7 +790,7 @@ Die Verschwiegenheitspflicht,confidentiality agreement
 Die Versorgung,care/supply
 Die Vertragsänderung,contract amendment
 vorantreiben,to drive forward
-(im) Voraus,(in) advance
+/im Voraus,(in) advance
 Das Vorfeld,run-up/preliminary stage
 vorrätig,in stock
 vorweisen,to show/produce
@@ -824,7 +824,7 @@ jammern,to moan
 der/die Lagerarbeiter/in,warehouse worker
 der/die Lebensmitteltechniker/in,food technician
 Der Lebensstandard,standard of living
-Der Lehrgang(Lehrgänge),training course
+Der Lehrgang/Lehrgänge,training course
 der/die Mechatroniker/in,auto mechanic
 Die Meisterwerkstatt,professional workshop
 mutig,brave
@@ -872,7 +872,7 @@ klassisch,classic
 Die Kreisstadt,district town
 Der Lebensgefährte,life partner
 lebenslustig,fun-loving
-Der Machospruch (ugs.),macho-talk (coll.)
+Der Machospruch /ugs.,macho-talk (coll.)
 Die Männerdomäne,man’s world
 Die Mindmap,mind map
 pädagogisch,pedagogical
