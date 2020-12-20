@@ -1,5 +1,5 @@
 <p align="center"><img src="static/icon.png" width="160" height="160">
-<h2 align="center">Vocablove</h2>
+<h2 align="center">VocabLove</h2>
 
 GNOME Shell extension to learn and practice vocabulary. Gets the words from a local `.csv` file in `word_sources/` folder and displays the words with meaning repeatedly until the script gets executed again to get new set of words. Click on the words to hear their pronunciation.
 
@@ -28,7 +28,7 @@ The script gets executed automatically every 3 hours. You can refresh the words 
 
 **Installation:**
 
-It's fairly simple to install this extension. After installing **Argos,** and cloning this repo
+It's fairly simple to install this extension. After installing [Argos](https://github.com/rammie/argos/tree/gnome-3.36), and cloning this repo
 
 ```bash
 # install espeak-ng with
@@ -97,3 +97,4 @@ Word/Plural: Meaning
 * Contributers of [espeak-ng](https://github.com/espeak-ng/espeak-ng)
 * [telc GmbH](https://www.telc.net/) for the vocab files for each language level
 
+[Go UP⬆️](#vocablove)
