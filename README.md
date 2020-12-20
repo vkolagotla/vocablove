@@ -1,7 +1,7 @@
 <p align="center"><img src="static/icon.png" width="160" height="160">
 <h2 align="center">VocabLove</h2>
 
-GNOME Shell extension to learn and practice vocabulary. Gets the words from a local `.csv` file in `word_sources/` folder and displays the words with meaning repeatedly until the script gets executed again to get new set of words. Click on the words to hear their pronunciation.
+GNOME Shell extension to learn and practice vocabulary. Gets the words from a local `.csv` file in `word_sources/` folder and displays the words with meaning repeatedly until the script gets executed again to get new set of words. *Click on the words to hear their pronunciation.*
 
 Since **Argos** does not allow to select particular method from the script to execute from the shell, so you will see random words(default 10) at a time from a language level(A1.1, A1.2, ... B2.2)
 

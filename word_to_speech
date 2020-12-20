@@ -8,5 +8,5 @@
 # \___)=(___//
 
 # gets a word from the the vocablove plugin and
-#+ convert the word to speach
+#+ convert the word to speech
 espeak-ng -vde -s 130 -g 15 -p 20 "$1 $2 $3 $4"
