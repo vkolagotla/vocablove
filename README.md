@@ -1,6 +1,7 @@
-# vocablove
+<p align="center"><img src="static/icon.png" width="160" height="160">
+<h2 align="center">Vocablove</h2>
 
-GNOME Shell extension to learn and practice vocabulary. Gets the words from a local `.csv` file in `word_sources/` folder and displays the words with meaning repeatedly until the script gets executed again to get new set of words.
+GNOME Shell extension to learn and practice vocabulary. Gets the words from a local `.csv` file in `word_sources/` folder and displays the words with meaning repeatedly until the script gets executed again to get new set of words. Click on the words to hear their pronunciation.
 
 Since **Argos** does not allow to select particular method from the script to execute from the shell, so you will see random words(default 10) at a time from a language level(A1.1, A1.2, ... B2.2)
 
@@ -22,9 +23,25 @@ The script gets executed automatically every 3 hours. You can refresh the words 
 **Dependencies:**
 
 * [Argos](https://github.com/rammie/argos/tree/gnome-3.36) (Install gnome-3.36 branch)
+* [espeak-ng](https://github.com/espeak-ng/espeak-ng)
 * [Python 3](https://www.python.org/)
 
-It's fairly simple to install this extension. After installing **Argos,**  copy the python script and the `word_sources/`  to `~/.config/argos` and make the file executable with `chmod +x vocablove.c.3h.py ` . File name follows the Argos recommended filename format if you want to change it.
+**Installation:**
+
+It's fairly simple to install this extension. After installing **Argos,** and cloning this repo
+
+```bash
+# install espeak-ng with
+sudo apt install espeak-ng
+# copy the python script to ~/.config/argos/ and and make it executable
+cp vocablove.c.3h.py ~/.config/argos/ && chmod +x ~/.config/argos/vocablove.c.3h.py
+# copy word_sources/ to ~/.config/argos
+cp -r word_sources/ ~/.config/argos/
+# copy word_to_speech to ~/bin/ and make it executable
+cp word_to_speech ~/bin/ && chmod +x ~/bin/word_to_speech
+```
+
+File name follows the Argos recommended filename format if you want to change it.
 
 ```
 NAME.POSITION.INTERVAL[+].EXTENSION
@@ -37,6 +54,7 @@ Once the script is executable, you should be able to see the words on the top pa
 + By default, the word changes every 3 seconds. I think this is too fast, especially when it's a new word. You can change the interval easily, by just changing it in the source code of [Argos](https://github.com/rammie/argos/tree/gnome-3.36). Go to the `argos@pew.worldwidemann.com/buttons.js` file in `argos` and change the seconds from **3** to **7** (recommend) or more in line 151 `this._cycleTimeout = Mainloop.timeout_add_seconds(3, Lang.bind(this, function()`.
 + Available positions: `l | c | r`. You can change the position by changing the file name.
 + Depending on your speed of learning and the amount of time you spend on screen, you can change the frequency of script execution. Available intervals:  number+`s | h | d | y` .You can change the frequency of script execution by changing the file name accordingly. Ex: `vocablove.c.2d.py...`  means the word list gets refreshed every 2 days.
++ Play around with [espeak-ng](https://github.com/espeak-ng/espeak-ng) settings in `word_to_speech` script to adjust the speech
 
 ### Extension Screenshot
 
@@ -55,11 +73,12 @@ If you would like improve the extension is any way, feel free to open an issue. 
 The words are in the following format in the `.csv` file. Plural if it's a noun.
 
 ```
-Word(Plural): Meaning
+Word/Plural: Meaning
 ```
 
 ## To Do
 
+- [ ] Improve word pronunciations
 - [ ] Add option to select between language levels
 - [ ] Add words for C1, C2
 - [ ] Reduce the speed of change directly from extension
@@ -75,7 +94,6 @@ Word(Plural): Meaning
 ## Thanks to
 
 * Contributers of [Argos](https://github.com/rammie/argos/tree/gnome-3.36)
+* Contributers of [espeak-ng](https://github.com/espeak-ng/espeak-ng)
 * [telc GmbH](https://www.telc.net/) for the vocab files for each language level
-
-[Go UP⬆️](#vocablove)
 

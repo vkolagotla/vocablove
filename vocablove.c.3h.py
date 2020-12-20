@@ -55,7 +55,12 @@ def main():
     # print the words to consol
     for key, value in ten_randon_words:
         if key != value:
-            print(key.capitalize() + ": " + value.capitalize())
+            print(
+                key.capitalize()
+                + ": "
+                + value.capitalize()
+                + " | bash='word_to_speech {}' terminal=false".format(key)
+            )
     print("---")
     # option to refresh the word list
     print("Refresh Words | refresh=true")
